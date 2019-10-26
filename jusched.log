@@ -1,0 +1,164 @@
+[2019/10/26 14:49:13.150, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: Time for a Java Update check.
+
+[2019/10/26 14:49:13.150, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2019/10/26 14:49:13.196, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_171; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180171F0}; type=0
+[2019/10/26 14:49:13.196, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:140 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:13.353, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:304 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:13.353, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:215 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F32180171F0})
+[2019/10/26 14:49:13.415, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:328 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:13.431, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:452 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_171-b11|1.8.0_171-b11|JRE|32bit|C:\Program Files (x86)\Java\jre1.8.0_171|{26A24AE4-039D-4CA4-87B4-2F32180171F0}|10)
+[2019/10/26 14:49:13.431, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=32; productCode={32A3A4F4-B792-11D6-A78A-00B0D0180171}; type=1
+[2019/10/26 14:49:13.571, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2019/10/26 14:49:13.571, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2019/10/26 14:49:13.603, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_171; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180171F0}; type=0
+[2019/10/26 14:49:13.603, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=32; productCode={32A3A4F4-B792-11D6-A78A-00B0D0180171}; type=1
+[2019/10/26 14:49:13.728, jusched.exe (PID: 2220, TID: 5084), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2019/10/26 14:49:13.728, jusched.exe (PID: 2220, TID: 5084), UpdateCommon.cpp:713 (GetVersionXmlFileURL)]
+	INFO: Versions to check: 
+  - 1.8.0_171-b11
+
+[2019/10/26 14:49:13.743, jusched.exe (PID: 2220, TID: 5084), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/map-1.8.0.xml)
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), NetUtils.cpp:222 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect succeeded, size: 16688 bytes
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: No cntry-lookup tag in map.xml
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: OVERRIDE SYSTEM VALUE==0:OS:10.0,Arch:amd64,Version:1.8.0_171-b11,Locale:en,Cntry:YY
+
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: https://javadl-esd-secure.oracle.com/update/1.8.0/5b13a193868b4bf28bcb45c792fce896/au-descriptor-1.8.0_231-b11.xml
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), Registry.cpp:389 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateBeginTime]=REG_SZ[Sat, 26 Oct 2019 09:19:14 GMT]
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), Registry.cpp:389 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateFinishTime]=REG_SZ[Sat, 26 Oct 2019 09:19:14 GMT]
+[2019/10/26 14:49:14.290, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: No Updates available
+
+[2019/10/26 14:49:14.806, jusched.exe (PID: 2220, TID: 5084), Registry.cpp:389 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateFinishTime]=REG_SZ[Sat, 26 Oct 2019 09:19:14 GMT]
+[2019/10/26 14:49:14.806, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: Started UpdateChecker process Successfully:C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe
+
+[2019/10/26 14:49:14.806, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate  [Critical] :  LastFinishTime is after LastScheduledTime, sleeping until next schedule Time: Wed Oct 30 16:56:00 2019
+
+[2019/10/26 14:49:14.806, jusched.exe (PID: 2220, TID: 5084), AllUtils.cpp:125 (logit)]
+	INFO: JavaUpdate [Critical] NextSchedTime=Wed Oct 30 16:56:00 2019
+JavaUpdate [Critical]lastSchedTime=Wed Oct 23 16:56:00 2019
+JavaUpdate [Critical]nextSchedTime=Wed Oct 30 16:56:00 2019
+JavaUpdate [Critical]sleeptime (sec=353206, hours=98, days=4.09)
+actual sleep time=353206000 msecs (98:06:46) for JavaUpdate [Critical]
+
+[2019/10/26 14:49:15.212, jucheck.exe (PID: 10196, TID: 10324), UpdateConf.cpp:1460 (UpdateSSV)]
+	INFO: UpdateSSV() - Begin Update
+[2019/10/26 14:49:15.212, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2019/10/26 14:49:15.243, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_171; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180171F0}; type=0
+[2019/10/26 14:49:15.243, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:140 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:15.259, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:304 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:15.259, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:215 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F32180171F0})
+[2019/10/26 14:49:15.259, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:328 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:15.259, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:452 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_171-b11|1.8.0_171-b11|JRE|32bit|C:\Program Files (x86)\Java\jre1.8.0_171|{26A24AE4-039D-4CA4-87B4-2F32180171F0}|10)
+[2019/10/26 14:49:15.259, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=32; productCode={32A3A4F4-B792-11D6-A78A-00B0D0180171}; type=1
+[2019/10/26 14:49:15.352, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2019/10/26 14:49:15.352, jucheck.exe (PID: 10196, TID: 10324), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files (x86)\Java\jre1.8.0_171\bin\javaws.exe" -SSVBaselineUpdate
+[2019/10/26 14:49:17.432, jucheck.exe (PID: 10196, TID: 10324), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2019/10/26 14:49:17.432, jucheck.exe (PID: 10196, TID: 10324), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2019/10/26 14:49:17.432, jucheck.exe (PID: 10196, TID: 10324), UpdateConf.cpp:1497 (UpdateSSV)]
+	INFO: UpdateSSV() - Update Successful
+[2019/10/26 14:49:17.432, jucheck.exe (PID: 10196, TID: 10324), AllUtils.cpp:125 (logit)]
+	INFO: SetJavaUpdateStringKey was called with a NULL value for the key, so defaulting to trying jucheck key
+[2019/10/26 14:49:17.447, jucheck.exe (PID: 10196, TID: 10324), Registry.cpp:389 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUpdateBeginTime]=REG_SZ[Sat, 26 Oct 2019 09:19:17 GMT]
+[2019/10/26 14:49:17.447, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2019/10/26 14:49:17.463, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_171; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180171F0}; type=0
+[2019/10/26 14:49:17.463, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:140 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:17.479, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:304 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:17.479, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:215 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F32180171F0})
+[2019/10/26 14:49:17.479, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:328 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F32180171F0} Java installation
+[2019/10/26 14:49:17.479, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:452 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_171-b11|1.8.0_171-b11|JRE|32bit|C:\Program Files (x86)\Java\jre1.8.0_171|{26A24AE4-039D-4CA4-87B4-2F32180171F0}|10)
+[2019/10/26 14:49:17.479, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=32; productCode={32A3A4F4-B792-11D6-A78A-00B0D0180171}; type=1
+[2019/10/26 14:49:17.572, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2019/10/26 14:49:17.572, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2019/10/26 14:49:17.588, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_171; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180171F0}; type=0
+[2019/10/26 14:49:17.588, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0; arch=32; productCode={32A3A4F4-B792-11D6-A78A-00B0D0180171}; type=1
+[2019/10/26 14:49:17.713, jucheck.exe (PID: 10196, TID: 10324), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2019/10/26 14:49:17.713, jucheck.exe (PID: 10196, TID: 10324), UpdateCommon.cpp:713 (GetVersionXmlFileURL)]
+	INFO: Versions to check: 
+  - 1.8.0_171-b11
+
+[2019/10/26 14:49:17.713, jucheck.exe (PID: 10196, TID: 10324), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/map-1.8.0.xml)
+[2019/10/26 14:49:18.258, jucheck.exe (PID: 10196, TID: 10324), NetUtils.cpp:222 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect succeeded, size: 16688 bytes
+[2019/10/26 14:49:18.274, jucheck.exe (PID: 10196, TID: 10324), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2019/10/26 14:49:18.274, jucheck.exe (PID: 10196, TID: 10324), AllUtils.cpp:125 (logit)]
+	INFO: No cntry-lookup tag in map.xml
+[2019/10/26 14:49:18.274, jucheck.exe (PID: 10196, TID: 10324), AllUtils.cpp:125 (logit)]
+	INFO: OVERRIDE SYSTEM VALUE==0:OS:10.0,Arch:amd64,Version:1.8.0_171-b11,Locale:en,Cntry:YY
+
+[2019/10/26 14:49:18.274, jucheck.exe (PID: 10196, TID: 10324), AllUtils.cpp:125 (logit)]
+	INFO: https://javadl-esd-secure.oracle.com/update/1.8.0/5b13a193868b4bf28bcb45c792fce896/au-descriptor-1.8.0_231-b11.xml
+[2019/10/26 14:49:18.274, jucheck.exe (PID: 10196, TID: 10324), Registry.cpp:389 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUDCheckTime]=REG_SZ[Sat, 26 Oct 2019 09:19:18 GMT]
+[2019/10/26 14:49:18.274, jucheck.exe (PID: 10196, TID: 10324), NetUtils.cpp:93 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/5b13a193868b4bf28bcb45c792fce896/au-descriptor-1.8.0_231-b11.xml)
+[2019/10/26 14:49:18.352, jucheck.exe (PID: 10196, TID: 10324), NetUtils.cpp:222 (HttpConnection::connect)]
+	TRACE: HttpConnection::connect succeeded, size: 6830 bytes
+[2019/10/26 14:49:18.352, jucheck.exe (PID: 10196, TID: 10324), AllUtils.cpp:125 (logit)]
+	INFO: SetJavaUpdateStringKey was called with a NULL value for the key, so defaulting to trying jucheck key
+[2019/10/26 14:49:18.352, jucheck.exe (PID: 10196, TID: 10324), AllUtils.cpp:125 (logit)]
+	INFO: Saving Update Descriptor XML Data
+
+[2019/10/26 14:49:18.352, jucheck.exe (PID: 10196, TID: 10324), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2019/10/26 14:49:18.368, jucheck.exe (PID: 10196, TID: 10324), UpdateManager.cpp:68 (CUpdateManager::WillAllowUpdate)]
+	ERROR: Exception with message 'Registry.cpp(285) at Registry::getValue(): query value (HKLM32\Software\JreMetrics\JreVersion) error. System error [2](system error 2 (No description available))' caught
+[2019/10/26 14:49:18.368, jucheck.exe (PID: 10196, TID: 10324), AllUtils.cpp:125 (logit)]
+	INFO: SetJavaUpdateDwordKey was called with a NULL for key, so trying jucheck location
+[2019/10/26 14:49:18.399, jucheck.exe (PID: 10196, TID: 10324), Registry.cpp:389 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\BalloonVisible]=REG_SZ[Sat, 26 Oct 2019 09:19:18 GMT]
+[2019/10/26 14:49:18.524, jucheck.exe (PID: 10196, TID: 10324), Registry.cpp:389 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\BalloonVisible]=REG_SZ[Sat, 26 Oct 2019 09:19:18 GMT]
